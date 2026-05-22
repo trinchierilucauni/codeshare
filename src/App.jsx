@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   const [code, setCode]= useState("Codice in caricamento...");
   const [copied, setCopied]= useState("");
+  const [title, setTitle]= useState("Rinnemon query for db configuration");
   const readCode = async()=>{
     try{
       const response= await fetch("/codice.txt");
@@ -31,6 +32,9 @@ function App() {
 
 
   useEffect(()=>{
+    if(window.innerWidth<700){
+      setTitle("Rinnemon query")
+    }
     readCode();
   },[]);
 
@@ -39,7 +43,7 @@ function App() {
     
       <header>
         <div className="navBar-container">
-          <div className="navbar-title">Rinnemon query for db configuration</div>
+          <div className="navbar-title">{title}</div>
           <div className="button-container">
             <div className="bottoneRinnemon">Rinnemon ➔</div>
             <div className="bottoneGithub">

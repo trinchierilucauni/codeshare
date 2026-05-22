@@ -147,3 +147,16 @@ a{
     gap:20px;
     justify-content: center;
 }
+@media(max-width:700px){
+    *{
+        margin:0;
+        box-sizing: border-box;
+        padding:0;
+    }
+    .code-box-container{
+        margin-left: 20px;
+        width:calc(100% - 40px);
+        margin-right: 20px;
+    }
+
+}
