@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+
+}
+body{
+    background-color: #0C0B13;
+}
+.navBar-container{
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 20px;
+}
+.navbar-title{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Google Sans Code", monospace;
+}
+.button-container{
+    display: flex;
+    gap:15px;
+}
+.bottoneRinnemon{
+    height:26px;
+    width:90px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    color:white;
+    border: 1px solid #B28EFD;
+    border-radius: 5px;
+    background-color: #9258FD;
+    font-weight: bold;
+    font-family: "Google Sans Code", monospace;
+
+}
+.bottoneGithub:hover{ /*Transizione da fare */
+    transform: scale(1.05);
+    transition: all 0.15s ease-in-out;
+}
+.bottoneGithub{
+    height:26px;
+    width:90px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    color:white;
+    border: 1px solid #B28EFD;
+    border-radius: 5px;
+    background-color: #412A6F;
+    font-weight: bold;
+    font-family: "Google Sans Code", monospace;
+}
+
+.code-box-container{
+    height: calc(100vh - 70px);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-box{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 425px;
+    width:675px;
+    border-radius: 18px;
+    border: 1px solid #3B3949;
+    background-color: #14131B;
+}
+
+.code-language{
+    color: white;
+}
+
+.code-linguaggio{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
+.code-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.iconaCopy{
+    color:white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.textLove{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    bottom:7px;
+    font-size: 10px;
+    font-weight: regular;
+    color:white;
+    font-family: "Google Sans Code", monospace;
+
+}
+.code-text-container pre{
+    white-space: pre-wrap;
+
+}
+.code-text-container::-webkit-scrollbar {
+    display: none; /* Per Chrome, Safari e Opera */
+}   
+.code-text-container{
+    scrollbar-width: none;  /* Per Firefox */
+    padding-left: 27px;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-right: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color:white;
+    height: 100%;
+    font-family: "Google Sans Code", monospace;
+}
+.spazio{
+    height: 15px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.check-text{
+    color: green;
+    font-family: "Google Sans Code", monospace;
+    font-size: 12px;
+}
+.copy-text-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
