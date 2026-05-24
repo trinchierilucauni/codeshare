@@ -6,10 +6,8 @@
 }
 body{
     background-color: #0C0B13;
-    min-height: 100vh; /* Compatibilità per browser più vecchi */
-    min-height: 100dvh; /* Prende l'altezza dinamica effettiva */
-    display: flex;
-    flex-direction: column;
+    height:100dvh;
+    outline: 1px solid red !important;
 }
 .navBar-container{
     height:60px;
@@ -162,12 +160,6 @@ a{
         margin-left: 20px;
         width:calc(100% - 40px);
         margin-right: 20px;
-    }
-    .code-box {
-        width: 100%;       /* Occupa tutta la larghezza dello smartphone */
-        max-width: 100%;   /* Non permette al box di strabordare */
-        height: auto;      /* Cambia da 27rem a auto */
-        max-height: 60vh;  /* Impedisce al box di diventare più alto del 60% dello schermo */
     }
 
 }
