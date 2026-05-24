@@ -6,7 +6,10 @@
 }
 body{
     background-color: #0C0B13;
-    height:100dvh;
+    min-height: 100vh; /* Compatibilità per browser più vecchi */
+    min-height: 100dvh; /* Prende l'altezza dinamica effettiva */
+    display: flex;
+    flex-direction: column;
 }
 .navBar-container{
     height:60px;
