@@ -84,6 +84,7 @@ function App() {
                 }}
                 lineProps={{
                   style: { 
+                    fontSize: '0.75rem',
                     fontFamily:'"Google Sans Code", monospace',
                     whiteSpace: 'pre-wrap',  /* Forza il pre-wrap su ogni singola riga di codice */
                     wordBreak: 'break-all'   /* Se una parola/stringa è più lunga di 675px, la spezza pur di non farlo uscire */
