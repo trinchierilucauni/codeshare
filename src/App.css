@@ -163,6 +163,12 @@ a{
         width:calc(100% - 40px);
         margin-right: 20px;
     }
+    .code-box {
+        width: 100%;       /* Occupa tutta la larghezza dello smartphone */
+        max-width: 100%;   /* Non permette al box di strabordare */
+        height: auto;      /* Cambia da 27rem a auto */
+        max-height: 60vh;  /* Impedisce al box di diventare più alto del 60% dello schermo */
+    }
 
 }
 @media(min-width: 1441px){
