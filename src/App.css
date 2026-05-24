@@ -161,6 +161,9 @@ a{
         width:calc(100% - 40px);
         margin-right: 20px;
     }
+    .code-box{
+        height: calc(100dvh - 140px);
+    }
 
 }
 @media(min-width: 1441px){
