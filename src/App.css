@@ -6,10 +6,10 @@
 }
 body{
     background-color: #0C0B13;
-    height:100dvh;
+    height:100svh;
 }
 .navBar-container{
-    height:60px;
+    height:3.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ body{
 }
 
 .code-box-container{
-    height: calc(100vh - 4.3rem);
+    height: calc(100dvh - 4.3rem);
     width:100%;
     display: flex;
     justify-content: center;
