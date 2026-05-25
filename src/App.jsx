@@ -45,10 +45,12 @@ function App() {
         <div className="navBar-container">
           <div className="navbar-title">{title}</div>
           <div className="button-container">
-            <div className="bottoneRinnemon">Rinnemon ➔</div>
-            <div className="bottoneGithub">
-              <a href="https://github.com/lucaccc1/rinnemon">Github</a>
-            </div>
+            <a href="https://rinnemon.vercel.app/">
+              <div className="bottoneRinnemon">Rinnemon ➔</div>
+            </a>
+            <a href="https://github.com/lucaccc1/rinnemon">
+              <div className="bottoneGithub">Github</div>
+            </a>
           </div>
         </div>
 

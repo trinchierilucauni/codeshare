@@ -9,7 +9,7 @@ body{
     height:100svh;
 }
 .navBar-container{
-    height:3.75rem;
+    height:3.0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,8 @@ body{
     gap:0.93rem;
 }
 .bottoneRinnemon{
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
     height:1.6rem;
     width:5.6rem;
     font-size: 0.7rem;
@@ -42,6 +44,9 @@ body{
 
 }
 .bottoneGithub:hover{ /*Transizione da fare */
+    transform: scale(1.08);
+}
+.bottoneRinnemon:hover{ /*Transizione da fare */
     transform: scale(1.08);
 }
 .bottoneGithub{
