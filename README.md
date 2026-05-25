@@ -10,5 +10,5 @@ Codeshare è uno spazio di condivisione del codice di configurazione delle query
 ## Come avviare il progetto in locale
 
 1. Clona il repository:
-   ''' bash
-     git clone []
+   ```bash
+   git clone https://github.com/trinchierilucauni/codeshare.git
